@@ -1,0 +1,9 @@
+Ich bin das Minesweeper feld.
+<br />
+<span *ngFor="#row of getField(); #r = index">
+  <span *ngFor="#mycell of row; #c = index" >
+    <cellrenderer [cellParameter]="mycell"></cellrenderer>
+  </span>
+  <br />
+  <br />
+</span>

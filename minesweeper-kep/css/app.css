@@ -1,0 +1,20 @@
+.cell{
+  padding:10px;
+  display:inline;
+  width:10px;
+}
+
+.innerCell{
+  padding:10px;
+  border:1px solid black;
+  display:inline;
+}
+
+
+.bomb{
+  background-color:red;
+}
+
+.noBomb{
+    background-color: green;
+}
